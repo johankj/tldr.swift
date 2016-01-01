@@ -49,6 +49,7 @@ class Page {
     }
     
     func prettyPrint() {
+        print("")
         print(" ", Color.Wrap(foreground: .Yellow, style: .Bold).wrap(title))
         for desc in descriptions {
             print(" ", desc)
